@@ -7,7 +7,8 @@ import Footer from './components/UI/Footer'
 
 export const metadata: Metadata = {
   title: 'Macomb Dumpster Rental',
-  description: 'Macomb County, MI Dumpster Rental',
+  description:
+    'Macomb County, MI Dumpster Rental. Rent a Dumpster Today. Affordable Dumpster Rental in Macomb, Michigan. Metro Detroit Dumpster Rental and Home Renovation. Noble Hauling and Dumpster Rental. Servicing Macomb County, Oakland County, and St Clair County. ',
 }
 
 export default function RootLayout({

@@ -51,9 +51,9 @@ export default function ServicesTabGroup() {
   })
 
   return (
-    <div className='w-full  px-2 py-16 sm:px-0'>
+    <div className='w-full  px-2  sm:px-0'>
       <Tab.Group>
-        <Tab.List className='flex flex-col md:flex-row space-x-1 rounded-xl bg-gray-900/2 p-8'>
+        <Tab.List className='flex flex-col md:flex-row space-x-1 rounded-xl bg-gray-900/2 p-4 md:py-16'>
           {Object.keys(categories).map((category) => (
             <Tab
               key={category}
@@ -90,9 +90,9 @@ export default function ServicesTabGroup() {
                       <p className='text-3xl text-center m-8 md:mt-16 '>
                         {post.subtitle}
                       </p>
-                      <p className='text-xl text-left px-2'>{post.content}</p>
+                      <p className='text-xl text-left p-2'>{post.content}</p>
                       <Link href={post.page}>
-                        <button className=' my-16 md:mt-32 p-4 bg-gradient-to-br from-orange-500 to-orange-400 shadow-md hover:border-2 hover:border-white rounded-xl w-2/3  font-semibold '>
+                        <button className=' hidden my-16 md:mt-32 p-4 bg-gradient-to-br from-orange-500 to-orange-400 shadow-md hover:border-2 hover:border-white rounded-xl w-2/3  font-semibold '>
                           Learn More <FaArrowRight className='inline ml-2' />
                         </button>
                       </Link>

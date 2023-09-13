@@ -5,7 +5,7 @@ import React from 'react'
 import menuIcon from '../../../../public/dumpsterMenu.svg'
 import { useState } from 'react'
 import Link from 'next/link'
-import { FaWindowClose } from 'react-icons/fa'
+import { FaTimes } from 'react-icons/fa'
 
 import { animated, useSpring } from '@react-spring/web'
 
@@ -26,7 +26,7 @@ function MenuDrawer() {
           className='bg-orange-400  px-4 rounded-lg text-xl text-center sticky md:w-[300px]  h-full z-20 my-12 md:my-2'>
           <ul>
             <li className='ml-auto my-4 ' onClick={toggleMenu}>
-              <FaWindowClose
+              <FaTimes
                 title='Close Menu'
                 className='text-2xl cursor-pointer   text-black hover:-translate-y-1 hover:text-slate-700 transition-all'
               />

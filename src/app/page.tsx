@@ -13,12 +13,12 @@ import ServiceAreaCards from './components/ServiceAreaCards'
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen w-full flex-col items-center justify-between border-t-2 border-orange-400  '>
+    <main className='flex min-h-screen w-full flex-col p-4 md:p-0 items-center justify-between border-t-2 border-orange-400  '>
       <DiscountModal />
       <ImageCarousel />
 
       <div className='flex flex-col-reverse md:flex-row justify-between items-center mb-16'>
-        <p className='text-2xl font-light m-4 max-w-2xl '>
+        <p className='text-lg md:text-2xl font-light m-4 max-w-2xl '>
           Noble Hauling is the top choice in Macomb, MI for your dumpster
           rental, junk removal, and home renovation needs. We provide high
           quality service at a fair price, with unmatched craftsmanship and
@@ -27,7 +27,7 @@ export default function Home() {
         <Image
           src={dumpster}
           alt='Picture of Noble Hauling 10 yard Dumpster available for rental'
-          className='md:w-1/2 rounded-xl shadow-lg border-2 border-orange-500  max-w-2xl'
+          className='md:w-1/2 rounded-xl shadow-lg border-2 border-orange-500'
         />
       </div>
       <Image
@@ -53,11 +53,11 @@ export default function Home() {
       />
 
       <section className='px-4'>
-        <h1 className='text-[3.5em] text-center '>
+        <h1 className='text-[3em] text-left md:text-center md:text-[3.5em]'>
           Serving Macomb County... and{' '}
           <span className='text-orange-400'>Beyond</span>
         </h1>
-        <p className='w-1/2 text-xl  px-2 my-4 m-auto'>
+        <p className='md:w-1/2 text-xl  px-2 my-4 m-auto'>
           Noble Hauling is based in Macomb, Michigan, and we take pride in where
           we’re from. Our junk removal, dumpster rental, and home renovation
           experts provide top-notch service to our community, as well as our
