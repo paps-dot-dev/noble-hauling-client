@@ -65,7 +65,12 @@ function ServiceAreaCards() {
     <>
       {open ? (
         <div>
-          <Image src={expandedMap} height={300} width={300} />
+          <Image
+            src={expandedMap}
+            height={300}
+            width={300}
+            alt='Service area map'
+          />
         </div>
       ) : (
         serviceAreas.map((area) => (
@@ -87,9 +92,7 @@ function ServiceAreaCards() {
                   src={area.mapImageUrl}
                   width='300'
                   height='300'
-                  allowfullscreen=''
-                  loading='lazy'
-                  referrerpolicy='no-referrer-when-downgrade'></iframe>
+                  loading='lazy'></iframe>
               </div>
             </div>
           </Card>
