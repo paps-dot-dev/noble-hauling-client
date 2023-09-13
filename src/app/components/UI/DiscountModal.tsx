@@ -63,7 +63,7 @@ export default function DiscountModal() {
           <Dialog.Title className='text-3xl font-semibold'>
             How can we help you?
           </Dialog.Title>
-          <Image src={logo} height={56} />
+          <Image src={logo} height={56} alt='dumpster rental logo' />
         </div>
         <Dialog.Description className='mb-4'>
           Give us some information on your next project, and we'll give you 15%
