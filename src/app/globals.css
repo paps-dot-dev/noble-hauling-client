@@ -30,3 +30,9 @@ body {
   background-color: black;
   color: white;
 }
+
+.not-found {
+  background-image: url('/public/dumpster1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

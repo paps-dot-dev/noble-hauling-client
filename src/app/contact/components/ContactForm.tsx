@@ -62,13 +62,12 @@ function ContactForm() {
           </div>
         </div>
         <div>
-          <div className='flex flex-col justify-center'>
-            <div className='flex items-start ml-auto mr-0 mt-4'>
-              <div className='bg-blue-300 p-4 rounded-lg bg-opacity-80'>
+          <div className='flex flex-col justify-center mx-2 md:mx-0'>
+            <div className='flex items-start ml-auto mr-0 mt-4 w-full md:w-1/2'>
+              <div className='bg-blue-300 p-4 rounded-lg bg-opacity-80 w-full'>
                 <iframe
-                  src='https://docs.google.com/forms/d/e/1FAIpQLSfQQqGxirG4806zaFRZDcNGJvbk2p97MWwBt-vfJylcwLAqGQ/viewform?embedded=true'
-                  width='500'
-                  height='750'>
+                  className='overflow-y-auto h-[900px] w-full'
+                  src='https://docs.google.com/forms/d/e/1FAIpQLSfQQqGxirG4806zaFRZDcNGJvbk2p97MWwBt-vfJylcwLAqGQ/viewform?embedded=true'>
                   Loading…
                 </iframe>
               </div>
