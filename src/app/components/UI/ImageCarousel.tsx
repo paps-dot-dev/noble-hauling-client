@@ -28,6 +28,7 @@ function ImageCarousel() {
       <Image
         src={image}
         className='hidden md:block md:w-full max-h-[600px] opacity-30'
+        alt='Dumpster Rental Background photo'
       />
       <HeaderCarousel />
     </div>

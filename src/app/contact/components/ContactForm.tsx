@@ -46,7 +46,12 @@ function ContactForm() {
       </h1>
       <div className='flex flex-col justify-between '>
         <div className='flex items-center max-w-md md:max-w-xl'>
-          <Image src={logo} height={48} className='rounded-full mx-4' />
+          <Image
+            src={logo}
+            height={48}
+            className='rounded-full mx-4'
+            alt='Noble Hauling Logo'
+          />
           <div>
             <p className='bg-gray-400 p-3 text-lg rounded-lg mt-4'>
               Hi, This is Noble Hauling. How can we assist you today?
@@ -63,10 +68,7 @@ function ContactForm() {
                 <iframe
                   src='https://docs.google.com/forms/d/e/1FAIpQLSfQQqGxirG4806zaFRZDcNGJvbk2p97MWwBt-vfJylcwLAqGQ/viewform?embedded=true'
                   width='500'
-                  height='750'
-                  frameborder='0'
-                  marginheight='0'
-                  marginwidth='0'>
+                  height='750'>
                   Loading…
                 </iframe>
               </div>

@@ -54,6 +54,7 @@ function MenuDrawer() {
           src={menuIcon}
           height={36}
           onClick={toggleMenu}
+          alt='menu icon'
         />
       )}
     </>
