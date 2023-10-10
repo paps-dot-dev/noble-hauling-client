@@ -12,37 +12,37 @@ function classNames(...classes) {
 
 export default function ServicesTabGroup() {
   let [categories] = useState({
-    Rental: [
+    Deliver: [
       {
         id: 1,
-        title: 'Dumpster Rental',
-        subtitle: 'Garage Cleanout? Home Remodel? New Roof?',
+        title: 'We Drop It Off',
+        subtitle: "You make the call, we'll handle the rest.",
         content:
-          'Make your project cleanup a breeze with one of our Rubber-Wheeled Dumpsters. Hit the button below to learn more, or click the button at the top of the screen to schedule your dumpster rental!',
+          "Make your project cleanup a breeze with one of our high-quality, affordable Rubber-Wheeled Dumpsters. We offer 10 cubic yard and 20 cubic yard configurations to best suit your needs. Construction, roofing, garage cleanout? We've got you covered.",
         imageUrl: '/Dumpstersideview.png',
         page: '/',
         altText: 'Side view of a Noble Hauling 15 Yard Dumpster.',
       },
     ],
-    Renovation: [
+    Load: [
       {
-        id: 1,
-        title: 'Home Renovation',
-        subtitle: "Don't Put Off that Remodel Project Any Longer...",
+        id: 2,
+        title: 'You Load It Up',
+        subtitle: 'No more mess with our dumpsters!',
         content:
-          'Create the home of your dreams with Noble Hauling. Our team of home renovation experts will turn your vision into a reality. With over 30 years of combined experience, rest assured that Noble Hauling can get the job done with unmatched precision and service.',
-        imageUrl: '/BathroomTile.png',
+          "Once our expert drivers drop your dumpster, you are good to go! Load it up with your construction debris or household junk. Our dumpsters have a door on the back to make disposal of heavy items a breeze. When youre done, give us a call, and we'll be on our way!",
+        imageUrl: '/Dumpstersideview.png',
         page: '/',
-        altText: 'A complete bathroom renovation done by Noble Hauling.',
+        altText: 'Construction dumpster',
       },
     ],
-    Removal: [
+    Haulaway: [
       {
-        id: 1,
-        title: 'Junk Removal',
-        subtitle: 'Need Help Getting Rid of All That Junk?',
+        id: 3,
+        title: 'We Haul It Away',
+        subtitle: 'We will take it from here.',
         content:
-          "Sit back, and find your zen knowing that our team of Junk Removal Experts got your next clean out taken care of. Learn more about Noble Hauling's Junk Removal Service below.",
+          'Once you made the call, sit back and relax as our hauling experts pick up your dumpster and haul that junk away. Noble Hauling is environmentally conscious, and will be sure to unload the dumpster at designated faciliities for proper handling of debris.',
         imageUrl: '/DumpsterFilledLumber.png',
         page: '/',
         altText: 'A Noble Hauling Dumpster filled with debris.',
@@ -87,7 +87,7 @@ export default function ServicesTabGroup() {
                   </p>
                   <div className='flex flex-col md:flex-row justify-between items-start'>
                     <div className='flex flex-col justify-between text-center'>
-                      <p className='text-3xl text-center m-8 md:mt-16 '>
+                      <p className='text-3xl text-left m-8 md:mt-16 '>
                         {post.subtitle}
                       </p>
                       <p className='text-xl text-left p-2'>{post.content}</p>
