@@ -19,10 +19,9 @@ export default function Home() {
 
       <div className='flex flex-col-reverse md:flex-row justify-between items-center mb-16'>
         <p className='text-lg md:text-2xl font-light m-4 max-w-2xl '>
-          Noble Hauling is the top choice in Macomb, MI for your dumpster
-          rental, junk removal, and home renovation needs. We provide high
-          quality service at a fair price, with unmatched craftsmanship and
-          care.{' '}
+          Noble Hauling is the top choice for dumpster rentals in Macomb,
+          Oakland, and St. Clair Counties. We provide high quality service at a
+          fair price, with unmatched craftsmanship and care.{' '}
         </p>
         <Image
           src={dumpster}
